@@ -63,6 +63,18 @@ header nav ul li {
       background-position: center;
       position: relative;
   }
+  .hero h2 {
+      position: relative;
+      color: #fce138;
+      font-size: 50px;
+      font-style: italic;
+      display: inline-block;
+      text-align: center;
+  }
+  
+  
+  
+  
   .hero-form {
       background-color: #fce138;
       padding: 20px;
