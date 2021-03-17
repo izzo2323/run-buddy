@@ -10,20 +10,21 @@ body {
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 header h1 {
     font-weight: bold;
     font-size: 36px;
     color: #fce138;
     margin: 0;
-    display: inline;
   }
 header a {
     text-decoration: none;
     color: #fce138;
 }
 header nav {
-    float: right;
     margin: 7px 0;
 }
 header nav ul li {
@@ -63,18 +64,12 @@ header nav ul li {
       background-position: center;
       position: relative;
   }
-  .hero h2 {
-      position: relative;
-      color: #fce138;
-      font-size: 50px;
-      font-style: italic;
-      display: inline-block;
-      text-align: center;
-  }
-  
-  
-  
-  
+
+
+
+
+
+
   .hero-form {
       background-color: #fce138;
       padding: 20px;
